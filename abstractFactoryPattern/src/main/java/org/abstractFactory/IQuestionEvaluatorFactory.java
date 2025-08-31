@@ -5,4 +5,5 @@ public interface IQuestionEvaluatorFactory{
     IFillin createFillin();
     ITrueFalse createTrueFalse();
     IMCQ createIMCQ();
+    IShortAnswer createShortAnswer();
 }

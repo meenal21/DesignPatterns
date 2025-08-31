@@ -1,4 +1,5 @@
 package org.abstractFactory;
 
-public class IShortAnswer {
+public interface IShortAnswer {
+    void evaluate(String response);
 }
