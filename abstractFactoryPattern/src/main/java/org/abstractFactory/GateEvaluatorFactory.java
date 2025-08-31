@@ -20,4 +20,9 @@ public class GateEvaluatorFactory implements IQuestionEvaluatorFactory{
     public ITrueFalse createTrueFalse(){
         return new GATE_truefalse_eval();
     }
+
+    @Override
+    public IShortAnswer createShortAnswer() {
+        return new GATE_shortanswer_eval();
+    }
 }

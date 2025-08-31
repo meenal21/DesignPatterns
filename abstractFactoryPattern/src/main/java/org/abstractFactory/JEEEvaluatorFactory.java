@@ -20,4 +20,9 @@ public class JEEEvaluatorFactory implements IQuestionEvaluatorFactory{
     public IEssay createEssay(){
         return new JEE_essay_eval();
     }
+
+    @Override
+    public IShortAnswer createShortAnswer(){
+        return new JEE_shortanswer_eval();
+    }
 }

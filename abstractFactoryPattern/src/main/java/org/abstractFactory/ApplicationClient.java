@@ -10,11 +10,13 @@ public class ApplicationClient {
         gateFactory.createFillin().evaluate("Gate Fillin Response");
         gateFactory.createEssay().evaluate("Gate Essay Response");
         gateFactory.createTrueFalse().evaluate("Gate True-False Response");
+        gateFactory.createShortAnswer().evaluate("Gate Short-Answer Response");
 
         System.out.println("--- Evaluating JEE Responses ---");
         jeeFactory.createIMCQ().evaluate("Jee MCQ Response");
         jeeFactory.createFillin().evaluate("Jee Fillin Response");
         jeeFactory.createEssay().evaluate("Jee Essay Response");
         jeeFactory.createTrueFalse().evaluate("Jee True-False Response");
+        jeeFactory.createShortAnswer().evaluate("Jee Short-Answer Response");
     }
 }
