@@ -1,5 +1,5 @@
 package org.abstractFactory;
 
 public interface IEssay {
-    void evaluateEssay(String response);
+    void evaluate(String response);
 }

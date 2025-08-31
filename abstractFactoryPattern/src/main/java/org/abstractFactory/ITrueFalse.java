@@ -1,5 +1,5 @@
 package org.abstractFactory;
 
 public interface ITrueFalse {
-    void evaluateTrueFalse(String response);
+    void evaluate(String response);
 }

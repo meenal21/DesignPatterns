@@ -3,21 +3,21 @@ package org.abstractFactory;
 public class JEEEvaluatorFactory implements IQuestionEvaluatorFactory{
     @Override
     public ITrueFalse createTrueFalse(){
-        return new GATE_truefalse_eval();
+        return new JEE_truefalse_eval();
     }
 
     @Override
     public IFillin createFillin(){
-        return new GATE_fillin_eval();
+        return new JEE_fillin_eval();
     }
 
     @Override
     public IMCQ createIMCQ(){
-        return new GATE_mcq_eval();
+        return new JEE_mcq_eval();
     }
 
     @Override
     public IEssay createEssay(){
-        return new GATE_essay_eval();
+        return new JEE_essay_eval();
     }
 }
